@@ -1,0 +1,210 @@
+.header-widht{
+    padding-top:9.5%;
+    min-height: 88vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image:  linear-gradient(225deg,   rgba(0, 0, 0, 0.7), rgba(7, 0, 80, 0.7),
+     rgba(0, 0, 0, 0.7)), url(../image/SIGNUP.jpg);
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 70px;
+    top:0px;
+    left: 0px;
+    box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.68) ;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 100;
+}
+.logo-name{
+    flex-shrink: 0;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 31px;
+    vertical-align:top;
+    color: white;
+    font-family: 'Gruppo', cursive;
+    letter-spacing: 2px;
+}
+.header-links{
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.links{
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+@media(max-width: 900px){
+    .logo-name{
+      display: none;
+    }
+    .box-1{
+      margin-top: 40px;
+    }
+     .p-1{
+      width: 100%;
+     }
+  }
+.header-pic{
+    width: 80px;
+}
+.input-container{
+    backdrop-filter: blur(5px);
+    box-shadow:  2px 2px 10px rgba(232, 224, 224, 0.68) ;
+    background-color: rgba(5, 5, 5, 0.434);
+    display: flex;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.img{
+    width: 60px;
+    text-align: center;
+    margin-top: -6%;
+    margin-bottom: 2%;
+}
+.Title-input{
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    line-height: 30px;
+    letter-spacing:5px;
+    transition: all 0.30s;
+}
+.Title-input:hover{
+    color: rgb(212, 148, 8);
+    font-size: 15px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none; 
+    color: white;
+}
+.input-forget{
+    font-family: 'Raleway', sans-serif;
+    font-size: 9px;
+    margin-top: 8px;
+    margin-right: -85px;
+}
+.input-forget:hover{
+    color: rgba(208, 115, 8, 0.774);
+    font-weight: bolder;
+}
+.input-email{
+   padding-left: 5px;
+}
+.input-Password{
+   padding-left: 5px;
+}
+.input-login{
+    background-color: rgba(4, 173, 167, 0.692);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: none;
+    margin-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.30s;
+}
+.input-login:hover{
+    background-color: transparent;
+    border: 2px solid rgb(212, 148, 8);
+}
+.input-noAcc{
+    margin-top: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+.Sign-up{
+    color:rgb(224, 155, 5);
+    font-weight: bolder;
+}
+.Sign-up:hover{
+    text-decoration: underline;
+}
+::placeholder { 
+    color: rgb(171, 171, 171);
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    padding-top: 10px;
+  }
+  input[type="text"]{
+    border: none;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    line-height: 25px;
+  }
+  input[type="password"]{
+        border: none;
+        color: white;
+        background-color: transparent;
+        outline: none;
+        line-height: 25px;
+  } 
+  input[type="email"]{
+    border: none;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    line-height: 25px;
+  }
+  input[type="number"]{
+    border: none;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    line-height: 25px;
+  }
+hr{
+    width: 45%;
+}
+.optional-p{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    margin-top: 5px; 
+}
+.fa-lock,.fa-envelope,.fa-user-plus,.fa-section,.fa-graduation-cap,.fa-user,.fa-hashtag{
+    color: white;
+}
+@media only screen and (max-width: 900px){
+   .header-widht{
+      min-height: 85vh;
+      padding-top:25%;
+    }
+    .Title-input{
+        font-size: 10px;
+    }
+    .input-container{
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 400px;
+    }
+    .img{
+        margin-top: -15%;
+    }    
+}

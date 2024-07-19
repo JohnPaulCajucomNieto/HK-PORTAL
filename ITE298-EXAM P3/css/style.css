@@ -1,0 +1,71 @@
+
+body{
+	   margin:0;
+	   padding:20px;
+  	   min-height: 100vh;
+	   background-repeat: no-repeat;
+	   background-position: center;
+	   background-size: cover;
+	   background-image: url(../image/BG-7.jpg);
+}
+table {
+	overflow-x:auto;
+	border:1px solid white;
+  	margin-top: 11%;
+    height: 100%;
+    width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+    color: rgb(255, 255, 255);
+    padding:12px 15px;
+    text-align: center;
+    font-size:16px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+table th{
+	background-color: rgb(0, 2, 133);
+	color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table tbody tr:nth-child(even){
+	background-color: rgba(159, 255, 250, 0.463);
+}
+a{
+    color: #000000;
+}
+@media(max-width: 900px){
+		table thead{
+		display: none;
+		
+
+	}
+
+	table, table tbody, table tr, table td{
+		display: block;
+		width: 80%;
+	}
+	table tr{
+		margin-bottom:15px;
+	}
+	table td{
+		text-align: right;
+		padding-right: 50%;
+		text-align: right;
+		position: relative;
+	}
+	table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+}

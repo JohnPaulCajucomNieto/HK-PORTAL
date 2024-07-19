@@ -1,0 +1,108 @@
+.header-widht{
+    width: 100%;
+    min-height: 92vh;
+    width: 100%;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image:  linear-gradient(225deg,   rgba(0, 136, 59, 0.7), rgba(7, 0, 80, 0.7),
+     rgba(0, 101, 101, 0.7)), url(../image/_MG_6881\ copy.jpg);
+}
+
+.ins{
+    color:rgb(222, 211, 0);
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 70px;
+    top:0px;
+    left: 0px;
+    box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.68) ;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo-name{
+
+    flex-shrink: 0;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 31px;
+    vertical-align:top;
+    color: white;
+    font-family: 'Gruppo', cursive;
+    letter-spacing: 2px;
+}
+.header-links{
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.links{
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.header-pic{
+    width: 80px;
+}
+.contents-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;  
+}
+.title-2{
+    color: white;
+    width: 300px;
+    font-family: 'Gruppo', cursive;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+.box-2{
+    margin-top: -40px;
+}
+.title-3{
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.p-1{
+    line-height: 20px;
+    width: 50%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 12px;
+}
+.btn-1{
+    margin-top: 10px;
+    padding: 6px 30px 6px 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+    background-color: rgba(92, 154, 0, 0.571);
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+@media(max-width: 900px){
+  .logo-name{
+    display: none;
+  }
+  .box-1{
+    margin-top: 40px;
+  }
+   .p-1{
+    width: 100%;
+   }
+}

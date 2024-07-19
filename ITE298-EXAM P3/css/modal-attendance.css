@@ -1,0 +1,124 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    background-image:
+    linear-gradient(225deg,
+    rgba(0, 109, 115, 0.82),
+    rgba(0, 0, 0, 0.7),
+    rgba(56, 43, 197, 0.7)),url(../image/DARLING.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 45%;
+    height: 67%;
+  }
+  
+  .close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.login{
+    letter-spacing: 2px;
+    color:white;
+    font-family: 'Gruppo', cursive;
+    margin-bottom: 4%;
+}
+::placeholder{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  padding-left: 5px;
+
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    color:white;
+}
+.Click{
+    color:white;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.fs{
+    border-radius: 20px;
+    border-style: none;
+    width: 190px;
+      height: 20px;
+      outline: none;
+      display: block;
+      margin-bottom: 1%;
+      margin-top: 1%;
+}
+.ls{
+  border-radius: 20px;
+  border-style: none;
+  width: 190px;
+  height: 20px;
+  outline: none;
+  margin-bottom: 1%;
+  display: block;
+}
+.Email{
+  border-radius: 20px;
+  border-style: none;
+   width: 190px;
+    height: 20px;
+    outline: none;
+    display: block;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.Password{
+      border-radius: 20px;
+      border-style: none;
+      width: 190px;
+      height: 20px;
+     outline: none;
+     margin-top: 1%;
+     display: block;
+}
+.btn{
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(68, 90, 255, 0.644);
+    border-style: none;
+    color:white;
+    margin-top: 1%;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    padding: 5px 65px 5px 65px;
+}
+.btn-main{
+    font-family: 'Montserrat', sans-serif;
+     color:white;
+     border-style: none;
+     background-color: rgb(71, 83, 250);
+     padding: 5px 50px 5px 50px;
+     border-radius: 20px;
+}
